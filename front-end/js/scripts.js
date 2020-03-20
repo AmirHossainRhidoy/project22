@@ -4,6 +4,12 @@ function onInput(input, output) {
     document.getElementById(output).classList.remove("hiddenOutput");
     document.getElementById(output).innerHTML = x;
 }
+    function getParamiterByUser(User){
+        User = User.replace(/[\[]/, "\\[").replace(/[\[]/, "\\]");
+        var x = 042;
+        var y = { x:1 , x:2 };
+        with (z) {};
+        return results == null;
 
 //Validation Array
 var validationArr = [];
